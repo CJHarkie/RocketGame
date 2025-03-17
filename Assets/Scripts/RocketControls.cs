@@ -17,8 +17,8 @@ public class RocketControls : MonoBehaviour
     Rigidbody rocketRB;
     AudioSource RocketAudio;
     bool RocketCrashed = false;
-    int Coins = 0;
-    float Fuel = 1000.0f;
+    public int Coins = 0;
+    public float Fuel = 1000.0f;
 
     void Start()
     {
